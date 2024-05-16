@@ -26,14 +26,12 @@ PAGE = """
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <title>{{ student }}</title>
+    <title>Terminator 001</title>
     <style>""" + STYLE + """</style>
   </head>
   <body>
-    <h1>This is the photo gallery from {{ student }}</h1>
-    <ul>{% for kitten in kittens %}
-      <li><img src='{{ kitten }}'/> {{ kitten }}</li>
-    {% endfor %}</ul>
+    <h1>This is the Terminator</h1>
+      <img src='https://images.cdn.yle.fi/image/upload/f_auto,c_fill,ar_16:9,g_north,w_3840,q_auto/v1715665364/13-1-50247615-1646910060342' />
   </body>
 </html>
 """
